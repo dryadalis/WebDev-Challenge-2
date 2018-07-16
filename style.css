@@ -155,5 +155,39 @@ p {
     font-family: Raleway sans-serif;
     font-weight: bold;
 }
+/*GALLERY*/
+.page--gallery {
+    min-height: 100vh;
+    background-color: #ffe92f;
+}
+.page--gallery--header {
+    margin-top: 80px;
+    font-size: 90px;
+    font-weight: bold;
+}
+.page--gallery--paragraph {
+    line-height: 1.4;
+    padding: 1rem;
+}
+.page--gallery__img {
+    cursor: pointer;
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+    margin-bottom: 30px;
+}
 
-
+.btn-blue {
+    border: none;
+    border-radius: 0;
+    background-color: #5585a2;
+    text-transform: uppercase;
+    color: white;
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.5);
+}
+.btn__hidden {
+    display: none;
+}
