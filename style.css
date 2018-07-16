@@ -162,7 +162,7 @@ p {
 }
 .page--gallery--header {
     margin-top: 80px;
-    font-size: 90px;
+    font-size: 72px;
     font-weight: bold;
 }
 .page--gallery--paragraph {
@@ -190,4 +190,35 @@ p {
 }
 .btn__hidden {
     display: none;
+}
+/*SUBSCRIBE*/
+.page--subscribe {
+    background: url("images/berries.jpg") no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    color: black;
+}
+.btn__subscribe {
+    background-color: #96b92c;
+    border-radius: 0;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.subscribe--input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    padding: 0 1.5rem;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.5);
+}
+/*BLOG*/
+.page--blog {
+    min-height: 100vh;
+    background-color: #b07cf7 ;
 }
