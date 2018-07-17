@@ -11,10 +11,20 @@ h1 {
     font-size: 70px;
     font-family: Raleway,sans-serif;
 }
-p {
-    font-size: 19px;
-    font-family: Roboto, sans-serif;
-    line-height: 35px
+.btn__main {
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    color: white;
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    opacity: 1;
+}
+.btn__main:hover {
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
 }
 /*HOME*/
 .page--home {
@@ -45,25 +55,10 @@ p {
     text-align: justify;
 }
 
-.info--box__button {
-    font-family: Roboto, sans-serif;
-    font-size: 22px;
-    text-align: center;
-    width: 220px;
-    height: 60px;
-    text-transform: uppercase;
+.btn__orange {
     background-color: #ff604c;
-    opacity: 0.7;
-    border: none;
-    border-radius: 0;
-    color: white;
-    cursor: pointer;
-    margin-top: 50px;
 }
-.info--box__button:hover {
-    opacity: 1;
-    transition: 0.2s ease-in-out;
-}
+
 .scroll--button {
     display: flex;
     justify-content: center;
@@ -176,17 +171,8 @@ p {
     margin-bottom: 30px;
 }
 
-.btn-blue {
-    border: none;
-    border-radius: 0;
+.btn__blue {
     background-color: #5585a2;
-    text-transform: uppercase;
-    color: white;
-    margin: 20px;
-    width: 200px;
-    height: 50px;
-    font-size: large;
-    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.5);
 }
 .btn__hidden {
     display: none;
@@ -198,16 +184,9 @@ p {
     min-height: 70vh;
     color: black;
 }
-.btn__subscribe {
+.btn__green {
     background-color: #96b92c;
-    border-radius: 0;
-    border: none;
-    text-transform: uppercase;
-    color: white;
-    width: 200px;
-    height: 50px;
-    font-size: large;
-    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.5);
+    margin: 0; !important;
 }
 
 .subscribe--input {
@@ -221,4 +200,63 @@ p {
 .page--blog {
     min-height: 100vh;
     background-color: #b07cf7 ;
+    color: white;
+}
+.page--blog h2 {
+    font-size: 90px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.page--blog--phara {
+    line-height: 1.4;
+    font-size: 17px;
+}
+
+.blog--post {
+    cursor: pointer;
+}
+
+.page--blog--img {
+    position: relative;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+.blog--post--data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    top: 8px;
+    margin-top: 20px;
+    margin-left: 28px;
+}
+.blog--post--data p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2rem;
+    margin: 5px;
+}
+.blog--post--info {
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    width: 330px;
+    line-height: 1.4;
+}
+
+.blog--post--info__title {
+    font-size: 19px;
+    font-weight: 700;
+}
+.blog--post--info__footer {
+    font-size: 16px;
+    margin-top: 5px;
+}
+.btn__red {
+    background-color: #ff4d4d;
 }
