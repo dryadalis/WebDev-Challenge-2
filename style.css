@@ -284,9 +284,15 @@ h1 {
     border-top: 0;
     border-right: 0;
     border-radius: 0;
-    font-weight: 700;
+    font-size: 15px;
+}
+.form--input ,select, .form--textarea {
+    color: white;
 }
 .form--input::placeholder, .form--textarea::placeholder{
+    color: white;
+}
+.form--input:focus, .form--textarea:focus {
     color: white;
 }
 .form--textarea {
@@ -298,10 +304,31 @@ h1 {
     border-top: 0;
     border-right: 0;
     border-radius: 0;
-    font-weight: 700;
+    font-size: 15px;
 }
 .btn__message {
     width: 450px; !important;
-    margin: 0; !important;
+    margin-left: 0; !important;
+    margin-bottom: 70px;
     background-color: #ff604c;
+}
+.page--contact--info h3 {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.page--contact--info {
+    margin-top: 50px;
+}
+/*FOOTER*/
+.page--footer {
+    background-color: #262626;
+    color: #b9b9b9;
+}
+.page--footer--info {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    line-height: 80px;
 }
