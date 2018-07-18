@@ -260,3 +260,48 @@ h1 {
 .btn__red {
     background-color: #ff4d4d;
 }
+/*CONTACT*/
+.page--contact {
+    background-image: url("images/contact_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.page--contact h2 {
+    font-size: 90px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.page--contact--inputs {
+    margin-top: 50px;
+}
+.form--input {
+    height: 50px;
+    width: 450px;
+    background-color: rgba(0,187,187,0.5);
+    border-left: 10px solid rgba(0,187,187,0);
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    border-radius: 0;
+    font-weight: 700;
+}
+.form--input::placeholder, .form--textarea::placeholder{
+    color: white;
+}
+.form--textarea {
+    resize: none;
+    width: 450px;
+    background-color: rgba(0,187,187,0.5);
+    border-left: 10px solid rgba(0,187,187,0);
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    border-radius: 0;
+    font-weight: 700;
+}
+.btn__message {
+    width: 450px; !important;
+    margin: 0; !important;
+    background-color: #ff604c;
+}
