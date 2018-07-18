@@ -7,16 +7,12 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-h1 {
-    font-size: 70px;
-    font-family: Raleway,sans-serif;
-}
+
 .btn__main {
     border: none;
     border-radius: 0;
     text-transform: uppercase;
     color: white;
-    margin: 20px;
     width: 200px;
     height: 50px;
     font-size: large;
@@ -25,6 +21,23 @@ h1 {
 .btn__main:hover {
     opacity: 0.8;
     transition: 0.2s ease-in-out;
+}
+.header {
+    font-size: 70px;
+    font-family: Raleway,sans-serif;
+    margin-top: 50px;
+}
+.header__white {
+    color: #white;
+}
+.header__black {
+    color: #262626;
+}
+.paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 35px 0 20px 0;
 }
 /*HOME*/
 .page--home {
@@ -57,6 +70,7 @@ h1 {
 
 .btn__orange {
     background-color: #ff604c;
+    margin-top: 50px;
 }
 
 .scroll--button {
@@ -155,11 +169,7 @@ h1 {
     min-height: 100vh;
     background-color: #ffe92f;
 }
-.page--gallery--header {
-    margin-top: 80px;
-    font-size: 72px;
-    font-weight: bold;
-}
+
 .page--gallery--paragraph {
     line-height: 1.4;
     padding: 1rem;
@@ -173,6 +183,7 @@ h1 {
 
 .btn__blue {
     background-color: #5585a2;
+    margin-bottom: 50px;
 }
 .btn__hidden {
     display: none;
@@ -181,12 +192,12 @@ h1 {
 .page--subscribe {
     background: url("images/berries.jpg") no-repeat;
     background-size: cover;
-    min-height: 70vh;
+    min-height: 60vh;
     color: black;
 }
 .btn__green {
     background-color: #96b92c;
-    margin: 0; !important;
+    margin: 50px 0 50px 0;
 }
 
 .subscribe--input {
@@ -195,21 +206,13 @@ h1 {
     border: 1px solid black;
     padding: 0 1.5rem;
     box-shadow: 0 1px 1px 1px rgba(0,0,0,0.5);
+    margin: 50px 0 50px 0;
 }
 /*BLOG*/
 .page--blog {
     min-height: 100vh;
     background-color: #b07cf7 ;
     color: white;
-}
-.page--blog h2 {
-    font-size: 90px;
-    font-weight: bold;
-    margin-top: 50px;
-}
-.page--blog--phara {
-    line-height: 1.4;
-    font-size: 17px;
 }
 
 .blog--post {
@@ -259,6 +262,7 @@ h1 {
 }
 .btn__red {
     background-color: #ff4d4d;
+    margin-top: 50px;
 }
 /*CONTACT*/
 .page--contact {
@@ -267,11 +271,7 @@ h1 {
     background-repeat: no-repeat;
     min-height: 100vh;
 }
-.page--contact h2 {
-    font-size: 90px;
-    font-weight: bold;
-    margin-top: 50px;
-}
+
 .page--contact--inputs {
     margin-top: 50px;
 }
@@ -294,6 +294,10 @@ h1 {
 }
 .form--input:focus, .form--textarea:focus {
     color: white;
+    background-color: rgba(0,187,187,1);
+    border-left: 6px solid #194387;
+    outline: none;
+    transition: all 2s linear;
 }
 .form--textarea {
     resize: none;
@@ -308,7 +312,6 @@ h1 {
 }
 .btn__message {
     width: 450px; !important;
-    margin-left: 0; !important;
     margin-bottom: 70px;
     background-color: #ff604c;
 }
