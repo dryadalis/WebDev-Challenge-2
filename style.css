@@ -45,39 +45,44 @@ html, body {
     height: 100vh;
     background-size: cover;
 }
-.navbar-default {
-    padding: 0 70px;
-    background-color: white;
+/*NAVBAR*/
+.navbar {
     height: 90px;
+    background-color: white;
+    padding: 0 70px;
 }
-
-.navbar-nav li {
-    font-size: 17px;
-    font-weight: bold;
-}
-.navbar-nav li a {
+.navbar-default .navbar-nav>li>a {
+    color: black;
     line-height: 60px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.navbar-default .navbar-nav li a:hover {
+    color: #ff604c;
+}
+.navbar-default .navbar-toggle {
+    margin-top: 25px;
+    margin-right: 10px;
+    border: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #262626;
 }
 .info--box {
-    display: flex;
-    padding: 0 50px;
-    min-height: 620px;
-    width: 500px;
-    flex-direction: column;
-    justify-content: center;
-    text-align: justify;
+    margin-top: 10%;
+    margin-left: 6%;
 }
-
+.scroll-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
 .btn__orange {
     background-color: #ff604c;
     margin-top: 50px;
 }
 
-.scroll--button {
-    display: flex;
-    justify-content: center;
-    transform: scale(1.2);
-}
 
 /*ABOUT*/
 .page--about {
@@ -334,4 +339,6 @@ html, body {
     text-align: center;
     font-size: 15px;
     line-height: 80px;
+}
+@media (max-width: 768px) {
 }
