@@ -23,6 +23,11 @@ const showMore = () => {
 
     viewMoreBtn.classList.add('btn__hidden');
 
-}
+};
 
 viewMoreBtn.addEventListener('click', showMore);
+
+
+//SCROLLSPY
+
+$('body').scrollspy({ target: '#navbar' });

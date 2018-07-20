@@ -7,6 +7,9 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+body {
+    position: relative;
+}
 
 .btn__main {
     border: none;
@@ -57,9 +60,7 @@ html, body {
     font-weight: bold;
     font-size: 15px;
 }
-.navbar-default .navbar-nav li a:hover {
-    color: #ff604c;
-}
+
 .navbar-default .navbar-toggle {
     margin-top: 25px;
     margin-right: 10px;
@@ -68,6 +69,13 @@ html, body {
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #262626;
 }
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: white;
+    color: #ff604c;
+}
+
 .info--box {
     margin-top: 10%;
     margin-left: 6%;
