@@ -35,5 +35,11 @@ $('body').scrollspy({ target: '#navbar' });
 //SMOOTH SCROLL
 import('https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.1/smooth-scroll.min.js')
     .then( () => {
-        var scroll = new SmoothScroll('a[href*="#"]');
+        const scroll = new SmoothScroll('a[href*="#"]', {speed: 800});
     });
+
+//HIDE NAVBAR AFTER CLICK ON LINK
+
+$('.navbar-nav>li>a').on('click', function () {
+   $('.navbar-collapse').collapse('hide');
+});
