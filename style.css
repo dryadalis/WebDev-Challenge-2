@@ -96,14 +96,13 @@ body {
     margin-top: 50px;
 }
 
-
 /*ABOUT*/
 .page--about {
     background-color: #0bb;
     min-height: 80vh;
 }
 .about--image {
-    margin-top: 50px;
+    margin-top: 5%;
     margin-left: -100px;
     transform: scale(0.95);
 }
@@ -138,8 +137,8 @@ body {
     font-size: 90px;
     font-weight: bold;
     color: white;
-    top: 29%;
-    left: 50%;
+    top: 42%;
+
 }
 /*SERVICE INFO*/
 .services--info {
@@ -210,8 +209,10 @@ body {
 /*SUBSCRIBE*/
 .page--subscribe {
     background: url("images/berries.jpg") no-repeat;
-    background-size: cover;
-    min-height: 60vh;
+    background-color: #fff;
+    background-size: auto;
+    padding: 6rem 0;
+    background-position: top right;
     color: black;
 }
 .btn__green {
@@ -369,12 +370,81 @@ body {
         line-height: 1.6;
         text-align: center;
         font-size: 20px;
-        margin: ;
     }
 
     .info--box .btn__orange {
         position: relative;
         width: 100%;
         margin-top: 5px;
+    }
+    .page--about img {
+        position: relative;
+        max-width: 100%;
+        margin: auto;
+    }
+    .page--about h1 {
+        text-align: center;
+        margin-top: -50%;
+    }
+    .page--about {
+        max-height: 130vh;
+    }
+    .page--about p {
+        margin: 10px;
+    }
+    .page--gallery p, .page--blog p {
+        padding: 0;
+    }
+
+    .services__list{
+        transform: scale(0.7);
+        width: 100%;
+    }
+    .services--image {
+        height: 100%;
+    }
+    .services--image__tomato {
+        position: absolute;
+        width: 100%;
+        margin-left: -100px;
+        margin-top: -10px;
+    }
+    .services--info {
+        margin-top: 50%;
+        margin-left: 15%;
+    }
+    .services--image h2 {
+        font-size: 50px;
+        text-align: center;
+        margin-left: -100px;
+        margin-top: 20px;
+    }
+    .page--services {
+        height: 100vh;
+    }
+    .page--subscribe {
+        background-position: top;
+        background-size: contain;
+    }
+    .page--subscribe h2, .page--subscribe p {
+        text-align: center;
+    }
+    .btn__green {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .blog--post img {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .form--input, .form--textarea {
+        width: 100%;
+    }
+    .page--contact--info {
+        margin-top: 0;
+        color: whitesmoke;
+    }
+    .btn__message {
+        width: 100%;
     }
 }
